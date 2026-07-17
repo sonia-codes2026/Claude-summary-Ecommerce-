@@ -1,0 +1,30 @@
+1. List all users
+Write a query to display all columns from the USERS table.
+
+2. Find products that are out of stock
+Write a query to show all products from PRODUCTS where stock = 0.
+
+3. Show all orders placed by a specific user
+Write a query to list all orders from ORDERS where user_id = 5.
+
+4. Display the names and prices of all products
+Write a query to select only the name and price columns from PRODUCTS.
+
+5. Count how many items are in a user’s cart
+Write a query to count the number of rows in CART_ITEMS for user_id = 3.
+
+6. Show all order items for a specific order
+Write a query to list all rows from ORDER_ITEMS where order_id = 10.
+
+7. Join orders with users
+Write a query to display each order along with the user’s name who placed it
+(using ORDERS joined with USERS).
+
+8. Show product names for items in an order
+Write a query that joins ORDER_ITEMS with PRODUCTS to show the product name, quantity, and price for order_id = 7.
+
+9. Calculate the total cart value for a user
+Write a query that multiplies quantity * price (from PRODUCTS) for each cart item and sums the total for user_id = 2.
+
+10. Insert a new product
+Write an INSERT statement to add a new product into the PRODUCTS table with any values you choose.
